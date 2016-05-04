@@ -1,0 +1,31 @@
+/**
+ * **********************************************************************************************
+ *  Author:         Minjung Yoo (1001013459)
+ *  Course:         CSE 4344-001
+ *  Assignment:	    Lab #1 Web Server Programming
+ **********************************************************************************************
+ */
+
+Instructions using IDLE such as NetBeans:
+
+1) Extract 1001013459.zip to the 1001013459 directory
+
+2) Open project using IDLE (path - where 1001013459 directory is located)
+
+3) Open Server.java and ClientHandle.java (locaed in 1001013459/src/pkg4)
+
+4) Compile/Run Server.java.
+
+5) Open Google Chrome to test results.
+
+	a) Go to "localhost:1000"
+	>>> Result should load "index.html" page.
+	
+	b) Go to "localhost:1000/a.html"
+	>>> Result should display 301 error message and new location of the file
+
+	c) Go to "localhost:1000/200.html"
+	>>> Result should display "200.html" page
+
+	d) Go to "localhost:1000/hello"
+	>>> Result should display 404 error code.
